@@ -1,6 +1,6 @@
 {
   "name": "@gunar/ts-with",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Enforce the presence of otherwise optional fields in TypeScript.",
   "license": "MIT",
   "contributors": [
