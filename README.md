@@ -27,7 +27,7 @@ getTrimmedLocation({ name: 'Gunar' })
 // This DOESN'T pass type check, as expected! ---------------
 import { With } from '@gunar/ts-with'
 
-const getTrimmedLocationSafe: (u: With<User, 'location') =>
+const getTrimmedLocationSafe: (u: With<User, 'location'>) =>
   u.location.trim()
 
 getTrimmedLocationSafe({ user: 'Gunar' })
